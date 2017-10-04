@@ -5,7 +5,7 @@ Extremely helpful Jekyll build and serve environment using Docker.
 ## Environment Variables
 
 - `TARGET_REPO` - Selects the repository that should be cloned when nothing is bind mounted.
-- `TARGET_BRANCH` - Selects the branch on the selected repository to be cloned.
+- `TARGET_BRANCH` - Selects the branch on the selected repository to be cloned. Defaults to the master branch.
 - `JEKYLL_GITHUB_TOKEN` - Sets the token used by the Jekyll GitHub API to get account information. It's only needed for local development, and shouldn't be committed into the repository.
 
 ## Volume Locations

@@ -8,9 +8,6 @@ EXPOSE 4000
 
 WORKDIR /site
 
-ENV TARGET_REPO=https://github.com/raveious/raveious.github.io.git \
-    TARGET_BRANCH=master
-
 COPY ./docker-entrypoint.sh /usr/local/bin/
 
 ENTRYPOINT [ "docker-entrypoint.sh" ]
