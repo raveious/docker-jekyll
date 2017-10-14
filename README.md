@@ -1,5 +1,7 @@
 # Jekyll environment for Docker
 
+[![Docker Build Status](https://img.shields.io/docker/build/raveious/jekyll-website.svg)](https://hub.docker.com/r/raveious/jekyll-website/) [![Docker Automated Build](https://img.shields.io/docker/automated/raveious/jekyll-website.svg)](https://hub.docker.com/r/raveious/jekyll-website/) [![Docker Pulls](https://img.shields.io/docker/pulls/raveious/jekyll-website.svg)](https://hub.docker.com/r/raveious/jekyll-website/) 
+
 Extremely helpful Jekyll build and serve environment using Docker.
 
 ## Environment Variables
