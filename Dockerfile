@@ -10,6 +10,8 @@ WORKDIR /site
 
 COPY ./docker-entrypoint.sh /usr/local/bin/
 
+ENV TARGET_BRANCH=master
+
 ENTRYPOINT [ "docker-entrypoint.sh" ]
 
-CMD [ "bundle", "exec", "jekyll", "serve", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
+CMD [ "bundle", "exec", "jekyll", "serve", "--safe", "--trace", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
