@@ -19,9 +19,6 @@ FROM raveious/jekyll-website
 # Sets the target repository
 ENV TARGET_REPO=https://github.com/raveious/raveious.github.io.git \
     TARGET_BRANCH=master
-
-# Clones the website at build time, instead of startup time like before.
-RUN docker-entrypoint.sh
 ```
 
 ## Docker Container
